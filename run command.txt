@@ -1,0 +1,20 @@
+make virtual environment named virenv :
+$python -m venv virenv
+
+
+activate virtual environment named virenv:
+$virenv\Scripts\activate 
+
+
+make requirements.txt file : 
+$pip freeze > requirements.txt
+
+$pip install opencv-python
+$pip install mediapipe
+
+
+run project : 
+$python FingerCounter.py
+
+run hand tracing module :
+$python HandTracingModule.py
